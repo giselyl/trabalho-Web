@@ -30,30 +30,9 @@
 		<br>
 		<div>
 			<span style="float:left;">
-			
-			<fieldset>
-			<legend><h2>QUESTÕES COMENTADAS</h2></legend>
-			
-				<table>
-					<tr>
-						<th><a onclick="abrirTabela('UFRN')"><img src="img/ufrnLogo.png" alt="UFRN" width="125" height="35" align="center"></a></th>
-						<th><button type="button" onclick="abrirTabela('UERN')">UERN</button></th>
-						<th><a onclick="abrirTabela('UFERSA')"><img src="img/ufersaLogo.png" alt="UFERSA" width="125" height="35" align="center"></a></th>
-					</tr>
-				
-					<tr class="universidades" id="UFRN">
-						<td>
-							<a href="lopUfrn.php">ECT2203 - LÓGICA DE PROGRAMAÇÃO</a><br>
-							<a href="lipUfrn.php">ECT2303 - LINGUAGEM DE PROGRAMAÇÃO</a><br>
-							<a href="estDadoUfrn.php">DCA0204 - ESTRUTURAS DE DADOS</a><br>
-							<a href="proAnaAlgoUfrn">DCA0434 - PROJETO E ANÁLISE DE ALGORITMOS</a><br>
-						</td>
-					</tr>
-				</table>
-			</fieldset>
-			
+						
 			</span>
-			
+			<!--
 			<script>
 				function abrirTabela(aux){
 					var alvo = document.getElementById(aux);
@@ -64,7 +43,7 @@
 						alvo.style.visibility = "visible";
 					}
 				}
-			</script>
+			</script>-->
 			
 			<span style="float:right;">
 			<fieldset id="fieldSites">
